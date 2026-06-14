@@ -9,12 +9,17 @@ function Home() {
       <section className="hero section-pad">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">Frontend Developer • Bihar, India</span>
-            <h1>Aisha Pandit</h1>
+            <span className="eyebrow">Aisha Pandit / Frontend Developer</span>
+            <h1>Clean React and Shopify interfaces for modern brands.</h1>
             <p>
-              I design and build polished React and Shopify interfaces with a focus on clean
-              structure, responsive behavior, and premium digital presentation.
+              Based in Bihar, India, I build polished web experiences with crisp layouts, smooth
+              interactions, and responsive details that feel reliable on every screen.
             </p>
+            <div className="hero-tags" aria-label="Primary services">
+              <span>React UI</span>
+              <span>Shopify Stores</span>
+              <span>Dashboard Design</span>
+            </div>
             <div className="hero-actions">
               <Link className="btn btn-primary" to="/projects">
                 View Projects
@@ -24,19 +29,24 @@ function Home() {
               </Link>
             </div>
           </div>
-          <div className="hero-panel" aria-label="Portfolio highlight">
-            <div className="panel-card">
-              <span>Current Focus</span>
-              <strong>Premium frontend experiences for business and commerce.</strong>
+
+          <div className="hero-showcase" aria-label="Aisha Pandit portfolio preview">
+            <div className="showcase-topline">
+              <span>Available for frontend projects</span>
+              <strong>2026</strong>
             </div>
+            <div className="showcase-monogram" aria-hidden="true">
+              AP
+            </div>
+            <p>Premium portfolio, HRMS, and Shopify storefront development.</p>
             <div className="hero-metrics">
               <div>
                 <strong>04</strong>
                 <span>Featured Projects</span>
               </div>
               <div>
-                <strong>08+</strong>
-                <span>Core Skills</span>
+                <strong>320+</strong>
+                <span>Responsive Width</span>
               </div>
             </div>
           </div>
@@ -91,7 +101,7 @@ function Home() {
 
       <section className="section-pad">
         <div className="container cta-panel">
-          <span className="eyebrow">Let’s Collaborate</span>
+          <span className="eyebrow">Let's Collaborate</span>
           <h2>Need a clean, premium frontend for your next idea?</h2>
           <Link className="btn btn-primary" to="/contact">
             Start a Conversation

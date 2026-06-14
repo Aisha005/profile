@@ -1,4 +1,5 @@
 import { skills } from '../data/projects.js';
+import { companyExperience, education } from '../data/experience.js';
 import '../styles/About.css';
 
 const timeline = [
@@ -19,7 +20,7 @@ const timeline = [
   }
 ];
 
-const stack = ['React', 'JavaScript', 'CSS Grid', 'Flexbox', 'Shopify', 'Liquid', 'Vite', 'Git'];
+const stack = ['React', 'JavaScript', 'HTML5', 'CSS3', 'Shopify', 'Liquid', 'Vite', 'Git'];
 
 function About() {
   return (
@@ -80,6 +81,19 @@ function About() {
             </article>
           ))}
         </div>
+      </section>
+
+      <section className="container about-experience-grid">
+        <article className="about-card">
+          <span className="eyebrow">Company Experience</span>
+          <h2>{companyExperience[0].role}</h2>
+          <p>{companyExperience[0].description}</p>
+        </article>
+        <article className="about-card intro-card">
+          <span className="eyebrow">Education</span>
+          <h2>{education[0].title}</h2>
+          <p>{education[0].description}</p>
+        </article>
       </section>
 
       <section className="container stack-section">

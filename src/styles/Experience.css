@@ -1,0 +1,101 @@
+.experience-hero p {
+  max-width: 760px;
+  font-size: clamp(0.96rem, 1.45vw, 1.08rem);
+}
+
+.experience-hero h1 {
+  margin: 16px 0 22px;
+  font-size: clamp(1.8rem, 3.2vw, 3rem);
+}
+
+.experience-section,
+.education-section {
+  margin-top: clamp(70px, 9vw, 112px);
+}
+
+.experience-list {
+  display: grid;
+  gap: 16px;
+}
+
+.experience-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.36fr) minmax(0, 1fr);
+  gap: 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+  padding: clamp(22px, 4vw, 34px);
+}
+
+.experience-meta {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+}
+
+.experience-meta span,
+.education-card > span {
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.experience-meta strong,
+.education-card strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.experience-card h3,
+.education-card h3 {
+  margin-bottom: 10px;
+}
+
+.experience-card p,
+.education-card p {
+  margin-bottom: 0;
+}
+
+.experience-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 20px;
+}
+
+.experience-points span {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 500;
+  padding: 8px 10px;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.education-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(145deg, rgba(142, 232, 255, 0.08), rgba(255, 255, 255, 0.035)),
+    rgba(255, 255, 255, 0.06);
+  padding: clamp(22px, 4vw, 32px);
+}
+
+.education-card h3 {
+  margin-top: 14px;
+}
+
+@media (max-width: 760px) {
+  .experience-card,
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,5 +1,40 @@
 # Aisha Pandit Portfolio
 
+File and Folder Structure:
+```text
+public/
+  favicon.svg
+src/
+  components/
+    Footer.jsx
+    Navbar.jsx
+    ProjectCard.jsx
+  data/
+    experience.js
+    projects.js
+  pages/
+    About.jsx
+    Contact.jsx
+    Experience.jsx
+    Home.jsx
+    Projects.jsx
+  styles/
+    About.css
+    Contact.css
+    Experience.css
+    Footer.css
+    global.css
+    Home.css
+    Navbar.css
+    Projects.css
+  App.jsx
+  main.jsx
+index.html
+package.json
+vite.config.js
+vercel.json
+```
+
 Node.js Version Required: 18 or higher
 
 React Version Used: 19

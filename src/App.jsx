@@ -4,6 +4,7 @@ import Footer from './components/Footer.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Projects from './pages/Projects.jsx';
+import Experience from './pages/Experience.jsx';
 import Contact from './pages/Contact.jsx';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes location={location}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -5,7 +5,7 @@ export const projects = [
     description:
       'A refined human resource management interface for employee records, attendance insights, leave workflows, and team operations.',
     tags: ['React', 'Dashboard UI', 'Forms', 'Responsive Design'],
-    accent: 'gold'
+    accent: 'cyan'
   },
   {
     title: 'Shopify Store Project 1',
@@ -41,5 +41,6 @@ export const skills = [
   'Shopify',
   'Liquid',
   'Responsive Design',
-  'UI Development'
+  'UI Development',
+  'Git'
 ];
